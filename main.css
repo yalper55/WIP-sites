@@ -1,0 +1,59 @@
+body  {
+background-color: gray;
+}
+
+footer {
+    background-color:gray;
+    color:white;
+}
+.box {
+margin: 8px;
+background-color: tomato;
+border-style: outset;
+border-color: goldenrod;
+color: ivory;
+text-align: center;
+border-radius: 10px;
+height: 40px;
+}
+.head1{
+    text-align: center;
+    padding: 10px;
+}
+.top  {
+    text-align: right;
+}
+.btop{
+    padding: 5px;
+    background-color: wheat;
+    font-style: normal;
+    color: thistle;
+    border-radius: 2px;
+    border-style: none;
+}
+.ba{
+    padding: 5px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: teal;
+    color: white;
+}   
+.br{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: gray;
+    color: white;
+}
+.indexbox {
+    background-color: whitesmoke;
+    border-style: unset;
+    padding: 5px;
+}
+
+.box1 {
+border-style: unset
+;
+
+}
