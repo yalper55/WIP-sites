@@ -20,10 +20,22 @@ height: 40px;
     text-align: center;
     padding: 10px;
 }
-.top  {
-    text-align: right;
+
+a:visited{
+    color: black;
 }
-.btop{
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.top {
+        text-align: right;
+        
+}
+
+.btop{  
     padding: 5px;
     background-color: wheat;
     font-style: normal;
@@ -31,12 +43,15 @@ height: 40px;
     border-radius: 2px;
     border-style: none;
 }
+.ba1{
+    padding-left: 30px;
+}
 .ba{
-    padding: 5px;
+    padding: 20px;
     border-radius: 2px;
-    border-style: none;
-    background-color: teal;
-    color: white;
+    border-width: 4px;
+    border-style: outset;
+    background-color: orangered;
 }   
 .br{
     margin-top: 10px;
