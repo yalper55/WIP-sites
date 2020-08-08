@@ -6,34 +6,41 @@
        <link rel="stylesheet" href="main.css" type="text/css" />
     </head>
     <body>
-        <h1>Rotary World</h1>  
-        <blockquote>To rotary for rotarys</blockquote>
-        <button><a href="index.html">Logout</a></button>
-        <hr />
-        <h1>Thanks for your time</h1>
-        <img src="https://i.pinimg.com/originals/71/35/1e/71351e69fadcd320769622aef639f6d0.gif" img/>
-        <audio autoplay src="Initial D - Deja Vu.mp3" ></audio>
-        <form action="contact2.html">
-        <fieldset>
-            <legend>Complete with your data</legend>
-            <label>Name</label>
-            <input type="text" placeholder="Your Name"  input/>
-            <label>Surname</label>
-            <input type="text" placeholder="Your Surname"  input/>
-            <br />
-            <label>Email</label>
-            <input type="email" placeholder="Your Email"  input/>
-            <br />
-            <label>Coments</label>
-            <br />
-            <textarea></textarea>
-            <br />
-            <button>Accept</button>
-       </fieldset>
+        <h1 class="box">Rotary World</h1>
+            <div class="bannerbox">
+                <img src="https://i.pinimg.com/originals/71/35/1e/71351e69fadcd320769622aef639f6d0.gif" height="250" img/>
+                <img src="banner.png" width="1200" height="250">
+                <audio autoplay src="Initial D - Deja Vu.mp3" ></audio>
+            </div>
+            <div class="top">
+                <button class="btn-top"><a href="index.html">Logout</a></button>
+            </div>
+            <div class="bodybox">
+                <div class="querybox">
+                    <div class="boxlog">    
+                        <form action="contact2.html">
+                        <fieldset>
+                            <legend>Complete with your data</legend>
+                            <div class="centerboxquery">
+                                <p>Name</p>
+                                <input type="text" placeholder="Your Name"  input/>
+                                <p>Surname</p>
+                                <input type="text" placeholder="Your Surname"  input/>
+                                <p>Email</p>
+                                <input type="email" placeholder="Your Email"  input/>
+                            </div>
+                                <p>Coments</p>
+                                <textarea rows="10" cols="50"></textarea><br/>
+                                <button class="btn-submit">Accept</button>
+                        </fieldset>
+                    </div>            
+                </div>
+            </div>
     </form>
     </body>
     <footer>
-        <hr />
-        <blockquote> Create by Yalper</blockquote>
-    </footer>
+        <div class="top">
+               <blockquote> Create by Yalper</blockquote>
+        </div>
+            </footer>
 </html>

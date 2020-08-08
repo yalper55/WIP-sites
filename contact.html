@@ -6,32 +6,39 @@
        <link rel="stylesheet" href="main.css" type="text/css" />
     </head>
     <body>
-        <h1>Rotary World</h1>  
-        <blockquote>To rotary for rotarys</blockquote>
-        <button><a href="index.html">Logout</a></button>
-        <hr />
-        <p>Ingress your query</p>
-        <form action="contact2.html">
-        <fieldset>
-            <legend>Complete with your data</legend>
-            <label>Name</label>
-            <input type="text" placeholder="Your Name"  input/>
-            <label>Surname</label>
-            <input type="text" placeholder="Your Surname"  input/>
-            <br />
-            <label>Email</label>
-            <input type="email" placeholder="Your Email"  input/>
-            <br />
-            <label>Coments</label>
-            <br />
-            <textarea></textarea>
-            <br />
-            <button>Accept</button>
-        </fieldset>
+        <h1 class="box">Rotary World</h1>  
+            <div class="bannerbox">
+                <img src="banner.png" width="1200" height="250">
+            </div>
+            <div class="top">
+                <button class="btn-top"><a href="index.html">Logout</a></button>
+            </div>
+            <div class="bodybox">
+                <div class="querybox">
+                    <div class="boxlog">    
+                        <form action="contact2.html">
+                        <fieldset>
+                            <legend>Complete with your data</legend>
+                            <div class="centerboxquery">
+                                <p>Name</p>
+                                <input type="text" placeholder="Your Name"  input/>
+                                <p>Surname</p>
+                                <input type="text" placeholder="Your Surname"  input/>
+                                <p>Email</p>
+                                <input type="email" placeholder="Your Email"  input/>
+                            </div>
+                                <p>Coments</p>
+                                <textarea rows="10" cols="50"></textarea><br/>
+                                <button class="submit-b">Accept</button>
+                        </fieldset>
+                    </div>            
+                </div>
+            </div>
     </form>
     </body>
     <footer>
-        <hr />
-        <blockquote> Create by Yalper</blockquote>
+        <div class="top">
+            <blockquote> Create by Yalper</blockquote>
+        </div>
     </footer>
 </html>
