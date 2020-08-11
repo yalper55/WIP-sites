@@ -6,8 +6,9 @@ body{
 
     background-color:whitesmoke ;
     border-style: outset;
-    margin: 8px;
+    margin: 4em;
     padding: 8px;
+    margin-left: 0px;
 
 }
 
@@ -38,4 +39,36 @@ body{
     width: 22.5em;
 }
 
+
+
+.active{
+    background-color: green;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+top: 0cm;
+left: 0cm;
+width: 100%;
+position: fixed;
+background-color: black;
+}
+
+li{
+    float: left;
+}
+li:hover{
+    background-color: green;
+    opacity: 1;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }

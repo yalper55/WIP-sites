@@ -3,6 +3,7 @@ background-color: gray;
 }
 
 footer {
+    text-align: right;
     background-color:gray;
     color:white;
 }
@@ -18,11 +19,10 @@ height: 40px;
 }
 .bannerbox{
     text-align: center;
-    padding: 10px;
+    margin-top: 3em;
+    padding: 1em;
 }
 
-a:visited{
-    color: black;
 }
 a:link{
     text-decoration: none;
@@ -30,12 +30,39 @@ a:link{
 a:hover{
     color: white;
 }
-.top {
-        text-align: right;
-        margin-right: 10px;
-        
+
+.active{
+    background-color: tomato;
 }
 
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+top: 0cm;
+left: 0cm;
+width: 100%;
+position: fixed;
+background-color: black;
+}
+
+li{
+    float: left;
+}
+li:hover{
+    background-color: tomato;
+    opacity: 1;
+}
+
+li a{
+    font-family: sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
 
 .bodybox{    
     padding: 30px;
@@ -84,14 +111,14 @@ a:hover{
     background-color: gray;
     color: white;
 }
-.btn-top{  
+/*.btn-top{  
     padding: 10px;
     color: yellow   ;
     background-color:gainsboro;
     border-radius: 2px;
     border-style: solid;
     border-color: black;
-}
+}*/
 
 .btn-menu:hover{
     color: white;
@@ -113,10 +140,10 @@ a:hover{
     width: 400px;
 }
 .title{
-   text-align: center;
-   border-style: dashed;
-   margin: 10px;
-   background-color: tomato;
+    text-align: center;
+    border-style: dashed;
+    margin: 10px;
+    background-color: tomato;
 
 }
 
@@ -165,3 +192,4 @@ a:hover{
     line-height: 1.5em;
     
 }
+
