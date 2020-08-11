@@ -23,11 +23,10 @@ height: 40px;
     padding: 1em;
 }
 
-}
-a:link{
+.topbar a:link{
     text-decoration: none;
 }
-a:hover{
+.topbar a:hover{
     color: white;
 }
 
@@ -47,15 +46,15 @@ position: fixed;
 background-color: black;
 }
 
-li{
+.topbar li{
     float: left;
 }
-li:hover{
+.topbar li:hover{
     background-color: tomato;
     opacity: 1;
 }
 
-li a{
+.topbar li a{
     font-family: sans-serif;
     display: block;
     color: white;
@@ -69,6 +68,7 @@ li a{
     margin: 10px;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    
 }
 
 .boxlog {
@@ -76,7 +76,7 @@ li a{
     text-align: center;
     padding: 10px;
     border-radius: 6px;
-
+    
 }
 
 .centerboxlog{
@@ -131,13 +131,17 @@ li a{
     background-color: tomato;
 }
 
-
+.btn-menu a:visited {
+    color:white;
+}
 .indexbox {
     background-color: whitesmoke;
     border-style: unset;
     border-radius: 10px;
     padding: 5px;
     width: 400px;
+    
+    
 }
 .title{
     text-align: center;
@@ -171,6 +175,7 @@ li a{
     border-radius: 10px;
     padding: 5px;
     width: 800px;
+    
 }
 
 .centerboxquery{
@@ -186,7 +191,7 @@ li a{
     background-color: #f9f9f9;
     color: #000;
     margin: .5em 0 .7em 1.2em;
-    padding: .em;
+    padding: 0em;
     float: right;
     font-size: 90%;
     line-height: 1.5em;
