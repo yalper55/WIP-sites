@@ -36,6 +36,7 @@ height: 40px;
 
 ul{
 list-style-type: none;
+display: block;
 margin: 0;
 padding: 0px;
 overflow: hidden;
@@ -197,4 +198,3 @@ background-color: black;
     line-height: 1.5em;
     
 }
-
