@@ -82,7 +82,7 @@ li a{
     
 }
 
-.dropdown-btn{
+.menu-btn{
     background-color: green;
     color: white;
     padding: 16px;
@@ -101,7 +101,7 @@ li a{
     cursor: pointer;
 
 }
-.dropdown{
+.menu{
     position: relative;
     display: inline-block;
     }

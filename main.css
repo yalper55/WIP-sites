@@ -23,45 +23,9 @@ height: 40px;
     padding: 1em;
 }
 
-.topbar a:link{
-    text-decoration: none;
-}
-.topbar a:hover{
-    color: white;
-}
 
 .active{
     background-color: tomato;
-}
-
-ul{
-list-style-type: none;
-display: block;
-margin: 0;
-padding: 0px;
-overflow: hidden;
-top: 0cm;
-left: 0cm;
-width: 100%;
-position: fixed;
-background-color: black;
-}
-
-.topbar li{
-    float: left;
-}
-.topbar li:hover{
-    background-color: tomato;
-    opacity: 1;
-}
-
-.topbar li a{
-    font-family: sans-serif;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
 }
 
 .bodybox{    
@@ -121,10 +85,10 @@ background-color: black;
     border-color: black;
 }*/
 
-.btn-menu:hover{
+.btn-x:hover{
     color: white;
 }
-.btn-menu{
+.btn-x{
     padding: 30px;
     border-radius: 2px;
     border-width: 4px;
@@ -132,7 +96,7 @@ background-color: black;
     background-color: tomato;
 }
 
-.btn-menu a:visited {
+.btn-x a:visited {
     color:white;
 }
 .indexbox {
@@ -198,3 +162,84 @@ background-color: black;
     line-height: 1.5em;
     
 }
+
+.top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: black;
+}
+
+
+.btn-menu{
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+.menu{
+    position: relative;
+    display: inline-block;
+    }
+
+.menu-content{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    border: solid 1px;
+    opacity: .9;
+}
+
+.menu-content1{
+    border: solid 1px;
+    left: 161px;
+    top: 84px;
+    opacity: .9;
+    min-width:  160px;
+    background-color: gray;
+    position: absolute;
+    display: none;
+}
+
+
+
+.menu-content a {
+color: black;
+padding:  12px 16px;
+text-decoration: none;
+display: block;
+}
+.menu-content1 a {
+    color: black;
+    padding:  12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+
+.menu-content a:hover{
+    background-color: hotpink;
+}
+
+.menu:hover .btn-menu{
+    background-color: green;
+    opacity: .6;
+}
+
+.menu:hover .menu-content{
+    display: block;
+}
+
+
+.menu:hover .rx7-menu:hover .menu-content1{
+    display: block;
+    
+}
+
+
