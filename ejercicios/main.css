@@ -18,12 +18,24 @@ body{
     color: white;
     border-style: unset
 }
+#aceptar:hover{
+    transition: 0.3s;
+   transform: scale(1.10,1.10)    
+}
 
+#cancelar:hover{
+    transition: 0.3s;
+   transform: scale(1.10,1.10)    
+}
 #cancelar{
     padding: 5px;
     background-color:grey;
     color: white;
     border-style: unset;
+    width: 100px;
+    height: 25px;
+
+
 }
 
 .tablebox{

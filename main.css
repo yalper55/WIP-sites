@@ -17,15 +17,16 @@ text-align: center;
 border-radius: 10px;
 height: 40px;
 }
+
+.active{
+    background-color: tomato;
+}
+
 .bannerbox{
     text-align: center;
     margin-top: 3em;
     padding: 1em;
-}
-
-
-.active{
-    background-color: tomato;
+    height: 250px;
 }
 
 .bodybox{    
@@ -58,7 +59,10 @@ height: 40px;
     margin:10px;
 }
 .btn-submit:hover{
-    color: blue;
+    color: white;
+    transition: 1s;
+    transform: scale(1.05,1.05);
+
 }
 .btn-submit{
     padding: 5px;
@@ -68,6 +72,12 @@ height: 40px;
     color: white;
 }   
 
+.btn-reset:hover{
+    background-color: red;
+    color: black;
+    transition: 1s;
+    transform: scale(1.05,1.05);
+}
 .btn-reset{
     margin-top: 10px;
     padding: 5px;
@@ -173,9 +183,19 @@ height: 40px;
     background-color: black;
 }
 
+.btn-menu:hover{
+    opacity: .9;
+}
+.btn-menu a:link{
+ text-decoration: none;
+}
+
+.btn-menu a:visited{
+color: white;  
+ }
 
 .btn-menu{
-    background-color: green;
+    background-color: tomato;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -183,6 +203,34 @@ height: 40px;
     cursor: pointer;
 
 }
+.menu:link{
+    
+}
+
+.btn-menu2 a:link{
+ text-decoration: none;
+}
+
+.btn-menu2 a:visited{
+color: white;  
+ }
+
+.btn-menu2:hover{
+    opacity: .9;
+
+}
+.btn-menu2 a{
+    color: white;
+}
+.btn-menu2{
+    background-color: tomato;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
 .menu{
     position: relative;
     display: inline-block;
@@ -195,20 +243,23 @@ height: 40px;
     min-width: 160px;
     border: solid 1px;
     opacity: .9;
+    box-shadow: 10px 10px 2px;
+
+
 }
 
 .menu-content1{
     border: solid 1px;
     left: 161px;
-    top: 84px;
+    top: 82.5px;
     opacity: .9;
     min-width:  160px;
     background-color: gray;
     position: absolute;
     display: none;
+    box-shadow: 10px 10px 2px;
+    
 }
-
-
 
 .menu-content a {
 color: black;
@@ -225,11 +276,16 @@ display: block;
 
 .menu-content a:hover{
     background-color: hotpink;
+    transition: 0.5s;
+    width: 128px;
+    /*transform: scale(1.10,1.10);*/
+    box-shadow: 1.5px 1.5px inset;
 }
 
 .menu:hover .btn-menu{
-    background-color: green;
+    background-color: tomato;
     opacity: .6;
+    
 }
 
 .menu:hover .menu-content{
