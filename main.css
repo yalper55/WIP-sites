@@ -185,6 +185,7 @@ height: 40px;
 
 .btn-menu:hover{
     opacity: .9;
+    transition: 0.3s;
 }
 .btn-menu a:link{
  text-decoration: none;
