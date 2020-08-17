@@ -341,3 +341,9 @@ display: block;
 }
 
 
+.player{
+    height: 1px;
+    width: 2em;
+    float: left;
+    outline: none;
+}
