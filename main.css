@@ -340,7 +340,11 @@ display: block;
     
 }
 
-
+.gif{
+    margin-left: 30em;
+float: right;
+    border:solid 1px black;
+}
 .player{
     height: 1px;
     width: 2em;
