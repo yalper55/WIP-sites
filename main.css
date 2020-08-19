@@ -135,35 +135,40 @@ height: 40px;
 .btnbox{
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(autofit,minmax(100px 1fr));
-    grid-gap: 0.1px;
+    grid-template-columns: repeat(auto-fit,minmax(200px 1fr));
+    grid-gap: 1em;
     grid-template-areas: 
-    "box1 . ."
-    ". . box2"
-    "box3 . ."
-    ". . box4";
+    "box1  ."
+    ".  box2"
+    "box3  ."
+    ".  box4";
 }
 .box1{
     grid-area: box1;
-    background-image : url(assets/fb.jpg);
+    background-image : url(assets/sa.jpg);
     background-position: center;
+    background-position-y: -105px;
     background-size: cover; 
+    width: 100%;
 }
 
 
 .box2{
     grid-area: box2;
-    background-image : url(assets/fc.jpg);
+    background-image : url(assets/fc1.jpg);
     background-position: center;
+    background-position-y: -120px;
     background-size: cover; 
+    width: 100%;
 }
 
 
 .box3{
     grid-area: box3;
     background-image : url(assets/fd.jpeg);
-    background-position-y: center;
+    background-position-y: -120px;
     background-size: cover; 
+    width: 100%;
 }
 
 .box4{
@@ -171,6 +176,7 @@ height: 40px;
     background-image : url(assets/767.jpg);
     background-position: center;
     background-size: cover; 
+    width: 100%;
 }
 
 .btn-x{
