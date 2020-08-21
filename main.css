@@ -7,6 +7,11 @@ footer {
     background-color:gray;
     color:white;
 }
+.yalper:hover{
+    transition: 0.3s;
+    transform: scale(0.95,1.10);
+    color: gold;
+}
 .box {
 margin: 8px;
 background-color: tomato;
@@ -26,7 +31,8 @@ height: 40px;
     text-align: center;
     margin-top: 3em;
     padding: 1em;
-    height: 250px;
+    height: auto;
+    width: 98%;
 }
 
 .bodybox{    
@@ -58,12 +64,22 @@ height: 40px;
     text-align: right;
     margin:10px;
 }
-.btn-submit:hover{
-    color: white;
-    transition: 1s;
-    transform: scale(1.05,1.05);
+.btn-submit2:hover{
+    color: black;
+    text-shadow: 1px 1px 2px white;
 
+    font-weight: bold;
+    transition: 0.5s;
+    transform: scale(1.04,1.05);
 }
+.btn-submit2{
+    padding: 5px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: teal;
+    color: white;
+}   
+
 .btn-submit{
     padding: 5px;
     border-radius: 2px;
@@ -72,11 +88,22 @@ height: 40px;
     color: white;
 }   
 
+.btn-submit:hover{
+    color: black;
+    text-shadow: 1px 1px 2px white;
+
+    font-weight: bold;
+    transition: 0.5s;
+    transform: scale(1.50,1.50);
+    background-image: url(/assets/flag.gif);
+    background-size: 40px 25px;
+}
+
 .btn-reset:hover{
     background-color: red;
     color: black;
     transition: 1s;
-    transform: scale(1.05,1.05);
+    transform: scale(1.10,1.10);
 }
 .btn-reset{
     margin-top: 10px;
@@ -94,12 +121,67 @@ height: 40px;
     border-style: solid;
     border-color: black;
 }*/
+.btn-x a:link{
+    color: white;
+    text-decoration: none;
+}
 
 .btn-x:hover{
-    color: white;
+    transition: 0.3s;
+    opacity: 0.5;
+    transform: scale(1.10,1.10);
+    ;
 }
+.btnbox{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px 1fr));
+    grid-gap: 1em;
+    grid-template-areas: 
+    "box1  ."
+    ".  box2"
+    "box3  ."
+    ".  box4";
+}
+.box1{
+    grid-area: box1;
+    background-image : url(assets/sa.jpg);
+    background-position: center;
+    background-position-y: -105px;
+    background-size: cover; 
+    width: 100%;
+}
+
+
+.box2{
+    grid-area: box2;
+    background-image : url(assets/fc1.jpg);
+    background-position: center;
+    background-position-y: -120px;
+    background-size: cover; 
+    width: 100%;
+}
+
+
+.box3{
+    grid-area: box3;
+    background-image : url(assets/fd.jpeg);
+    background-position-y: -120px;
+    background-size: cover; 
+    width: 100%;
+}
+
+.box4{
+    grid-area: box4;
+    background-image : url(assets/767.jpg);
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+}
+
 .btn-x{
-    padding: 30px;
+        padding: 30px;
+        text-decoration: none;
     border-radius: 2px;
     border-width: 4px;
     border-style: outset;
@@ -201,10 +283,8 @@ color: white;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    outline: 0px;
 
-}
-.menu:link{
-    
 }
 
 .btn-menu2 a:link{
@@ -229,6 +309,7 @@ color: white;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    outline:  0px; 
 }
 
 .menu{
@@ -261,6 +342,11 @@ color: white;
     
 }
 
+/*.ts:hover {
+   background-image : url(assets/ts.gif);
+   float: left;
+   
+}*/
 .menu-content a {
 color: black;
 padding:  12px 16px;
@@ -298,4 +384,14 @@ display: block;
     
 }
 
-
+.gif{
+    margin-left: 30em;
+float: right;
+    border:solid 1px black;
+}
+.player{
+    height: 1px;
+    width: 2em;
+    float: left;
+    outline: none;
+}
