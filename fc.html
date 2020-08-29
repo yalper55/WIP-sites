@@ -6,20 +6,30 @@
        <link rel="stylesheet" href="main.css" type="text/css" />
     </head>
     <body>
-        <!--   <h1 class="box">Rotary World</h1>  
-        --><div class="bannerbox">
-           <img src="banner.png" width="1200" height="250">
-       </div> 
-       <div>
-           <ul>
-            <li><a href="welcome.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li style="float: right;"><a href="index.html">Logout</a></li>
-            <li><a href="contact.html">Contact</a></li> 
-           </ul>
-           <!--<button class="btn-top"><a href="contact.html">Contact</a></button>-->
-       </div>
-        <div class="bodybox">
+        <nav class="top">
+            <button class="btn-menu"><a href="welcome.html">Home</a></button><div class="menu">
+                <button class="btn-menu2"><a href="models.html">Models</a></button>
+                <div class="menu-content">
+                    <a href="#">Rx8</a>
+                    <a href="#">Racing</a>
+                    <div class="rx7-menu">
+                        <a href="#">Rx7</a>
+                    <div style="float: right;" class="menu-content1">
+                        <a href="fb.html">FB</a>
+                        <a href="fc.html">FC</a>
+                        <a href="fd.html">FD</a>
+                        <a href="racing.html">Racing</a>
+                    </div>
+                </div>
+                </div>
+            </div><button class="btn-menu"><a href="about.html">About</a></button><button class="btn-menu"><a href="history.html">History</a></button><button class="btn-menu"><a href="contact.html">Contact</a></button>
+                <button style="float: right;" class="btn-menu"><a href="index.html">Logout</a></button>
+            <!--   <h1 class="box">Rotary World</h1>  -->
+        </nav>
+        <div class="bannerbox">
+            <img src="assets/banner.png" width="1200" height="250"> 
+        </div>
+            <div class="bodybox">
                 <div class="title">
                     <h2>RX-7 FC</h2>
                 </div>
@@ -38,9 +48,14 @@
                         </div>
         </div>  
     </body>
-    <footer>
-        <div class="top">
-               <blockquote> Create by Yalper</blockquote>
-        </div>
-    </footer>
+    <div class="yalper">
+        <blockquote"> Create by Yalper ®</blockquote>
+    </div>
+    <div class="player"> 
+        <audio controls autoplay loop  preload="auto"   >
+        <source src="/music/Initial D - Running In The 90s.mp3" type="audio/mp3">
+        <source src="/music/Initial D - Deja Vu.mp3" type="audio/mp3">
+        </audio>
+        </div> 
+</footer>
 </html>
